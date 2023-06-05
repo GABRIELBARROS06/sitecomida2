@@ -1,0 +1,10 @@
+Cores
+
+orange:#EC7643
+black:#151415
+blue:#24A5F7
+
+fontes
+
+Montserrat
+Tapestry
