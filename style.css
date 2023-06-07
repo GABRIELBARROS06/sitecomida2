@@ -1,32 +1,36 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    }
-body{
-    margin: 0;
-    height: 100vh;
-  
 }
 
-header{
-     position: static;
+body {
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+header {
+    position: static;
     background-color: #d4d4d4;
     height: 60px;
 
 
 }
-.logo{
+
+.logo {
     position: relative;
-    font-family:'Tapestry', cursive;
+    font-family: 'Tapestry', cursive;
     font-size: 42px;
     color: #EC7643;
     left: 0.2%;
     align-items: center;
-  
+
 
 }
-.icone{
+
+.icone {
     display: flex;
     position: relative;
     top: -42px;
@@ -35,43 +39,47 @@ header{
     align-items: center;
 
 }
-.burguer{
+
+.burguer {
     display: flex;
-   position: relative;
+    position: relative;
     justify-content: center;
     color: #EC7643;
     top: -40px;
     left: 13.8%;
     align-items: center;
-    
+
 }
 
-.search-box{
+.search-box {
     position: absolute;
     left: 20%;
-    transform: translate(0%, -205% );
+    transform: translate(0%, -205%);
     background-color: #f5f5f5;
     height: 40px;
     padding: 10px;
     border-radius: 10px;
     display: flex;
     align-items: center;
-    
- 
+
+
 }
-.search-txt{
+
+.search-txt {
     border: none;
     background: none;
     align-items: center;
-    
+
 }
-.user{
+
+.user {
     display: flex;
     position: absolute;
     top: 5px;
     left: 70%;
 }
-.name{
+
+.name {
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     display: flex;
@@ -80,55 +88,310 @@ header{
     left: 20vh;
 
 }
-.comuni{
+
+.comuni {
     display: flex;
     position: relative;
+    width: 55px;
     left: 93%;
     top: -150%;
+    align-items: center;
+    justify-content: center;
 }
-.sidebar{
+
+.sidebar {
     display: grid;
     height: 600px;
     background-color: #151415;
     opacity: 1;
     width: 250px;
-    background-image: url(./images.jfif);
+    background-image: url(./Group\ 5.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
     justify-content: center;
 }
-.HOME{
-    color: #EC7643;
-}
-.sidebar>p{
+
+.sidebar>hr {
     position: relative;
-    font-family:'Montserrat', sans-serif;
+    width: 160px;
+    height: 0px;
+    border-color: #151415;
+}
+
+.sidebar>.home {
+    color: #EC7643;
+    font-size: 15px;
+    font-family: 'Montrrat', sans-serif;
+}
+
+.sidebar>h2 {
+    position: relative;
+    font-family: 'Montrrat', sans-serif;
     font-size: 15px;
     color: #f5f5f5;
-    margin: 40px 20px;
+    top: 5px;
     left: 30px;
-    padding:-5px;
+    padding: -5px;
+    gap: 0px;
 }
-.quadrado{
-  
-    height: 50px;
-    box-shadow:2px 5px 5px #151415;
-    position:relative;
-    top: -25vh;
+
+.sidebar>a {
+    border-radius: 8px;
+    display: flex;
+    position: relative;
+    width: 165px;
+    height: 60px;
+    background-color: #24A5F7;
+    color: #f5f5f5;
+    align-items: center;
+    justify-content: center;
+    top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    text-decoration: none;
 }
-.meio{
+
+
+
+.meio {
     display: grid;
     position: absolute;
     align-items: center;
     height: 350px;
     top: 60px;
     left: 18.6%;
-    width: 1100px;
-    background-image:url(./ham.png) ;
+    width: 1120px;
+    background-image: url(./meio.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+
+}
+
+.meio>h2 {
+    position: relative;
+    top: 220px;
+    font-size: 20px;
+    font-family: 'Montrrat', sans-serif;
+    color: #f5f5f5;
+    left: 10%;
+
+}
+
+.meio>p {
+    position: relative;
+    top: 140px;
+    color: #d4d4d4;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    left: 10%;
+
+}
+
+.botaom {
+    position: relative;
+    align-items: center;
+    left: 80%;
+    top: 10px;
+    border-radius: 8px;
+    background-color: #24A5F7;
+    width: 150px;
+    height: 50px;
+    justify-content: center;
+
+}
+
+.botaom>a {
+    font-size: 14px;
+    align-items: center;
+    display: flex;
+    position: relative;
+    color: #d4d4d4;
+    top: 13px;
+    left: 27.5px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.baixo {
+    p width: 0;
+    height: 0;
+}
+
+.baixo>h2 {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    top: -35vh;
+    left: 40px;
+    font-size: 18px;
+    color: black;
+    left: 20%;
+}
+
+.cheddar {
+    width: 250px;
+    height: 135px;
+    position: relative;
+    border: 20px;
+    border-radius: 50px;
+}
+
+.salada {
+    width: 250px;
+    border-radius: 50px;
+}
+
+.calabresa {
+    width: 250px;
+    border-radius: 50px;
+}
+
+.tumbnail {
+    position: relative;
+    display: flex;
+    gap: 40px;
+    left: 30%;
+    top: -200px;
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+       
+    }
+
+    body {
+        margin: 0;
+        height: 100vh;
+    }
+
+    header {
+        width: 620px;
+        height: 70px;
+    }
+
+    .logo {
+        font-size: 45px;
+        align-items: center;
+    }
+
+    .icone {
+        position: relative;
+        transform: translate(110px, 0px);
+    }
+
+    .user {
+        position: relative;
+        transform: translate(10px, -46px);
+    }
+
+    .comuni {
+        position: relative;
+        transform: translate(-20px, -30px);
+    }
+
+    .sidebar {
+        width: 200px;
+        height: 50vh;
+    }
+
+    .sidebar>h2 {
+        font-size: 13px;
+    }
+
+    .sidebar>a {
+        width: 140px;
+        font-size: 10px;
+        position: relative;
+        left: 15px;
+        top: 24px;
+    }
+
+
+    .meio {
+        width: 420px;
+        height: 50vh;
+        position: relative;
+        top: -50vh;
+        left: 200px;
+        background-attachment:initial;
+    }
+
+    .meio>h2 {
+        font-size: 27px;
+        position: relative;
+        top: 280px;
+        left: 70px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .meio>p {
+        position: relative;
+        top: 150px;
+        align-items: center;
+        justify-content: center;
+        left: 80px;
+        font-size: 13px;
+    }
+
+    .botaom {
+        position: relative;
+        width: 25vw;
+        height: 70px;
+        left: 110px;
+        top: 30px;
+
+    }
+
+    .botaom>a {
+        position: relative;
+        left: 0px;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+    }
+
+    .search-box {
+        position: absolute;
+        transform: translate(100px, -82px);
+        align-items: center;
+
+    }
+
+    .baixo>h2 {
+        position: relative;
+        top: -500px;
+        font-size: 25px;
+        left: 30px;
+    }
+
+    .cheddar {
+        position: relative;
+        top: -270px;
+        width: 150px;
+        right: 200px;
+    }
+
+    .calabresa {
+        position: relative;
+        top: -270px;
+        width: 150px;
+        right: 190px;
+    }
+
+    .salada {
+        position: relative;
+        top: -270px;
+        width: 150px;
+        right: 180px;
+    }
+
 
 }
